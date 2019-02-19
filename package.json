@@ -1,16 +1,17 @@
 {
-  "name": "benny-hill",
+  "name": "jstup-benny-hill",
   "version": "1.3.0",
-  "description": "Play the Benny Hill theme while running another command",
+  "description": "Play the Benny Hill theme or Star Wars Cantina theme while running another command",
   "bin": {
-    "benny-hill": "./bin.js"
+    "benny-hill": "./bin.js",
+    "star-wars": "./cantina.js"
   },
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/mafintosh/benny-hill.git"
+    "url": "https://github.com/jstup/benny-hill.git"
   },
   "author": "Mathias Buus (@mafintosh)",
   "license": "MIT",
